@@ -22,7 +22,7 @@
           clifford: '#da373d',
           'bike-primary': '#E76F51',
           'bike-primary-bg': 'rgba(231, 111, 81, 0.10)',
-        }
+          }
       }
     }
   }
@@ -49,7 +49,7 @@
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-4xl">Biker Zone</a>
+              <a class="btn btn-ghost text-2xl lg:text-4xl">Biker Zone</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu test-base menu-horizontal px-1">
@@ -69,7 +69,7 @@
           <div id="slide1" class="carousel-item relative w-full">
             <div class="flex flex-col lg:flex-row p-4 lg:p-24">
                 <div class="space-y-7 flex-1 gap 20"><!--child 1-->
-                  <h2 class="text-6xl font-bold">Ride-on R15 V4 <br>with Smile</h2>
+                  <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br>with Smile</h2>
                   <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
                   <button class="btn bg-bike-primary text-white">Purchase</button>
                 </div>
@@ -84,7 +84,16 @@
           </div>
           <!--slide 2-->
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="./images/slider/bike2.png" class="w-full" />
+            <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+              <div class="space-y-7 flex-1 gap 20"><!--child 1-->
+                <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br>with Smile</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-bike-primary text-white">Purchase</button>
+              </div>
+              <div class="flex-1"><!--child 2-->  
+                <img src="./images/slider/bike2.png" class="w-3.8/4" />
+              </div>
+          </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide3" class="btn btn-circle">❯</a>
@@ -92,7 +101,16 @@
           </div>
           <!--slide 3--> 
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="./images/slider/bike3.png" class="w-full" />
+            <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+              <div class="space-y-7 flex-1 gap 20"><!--child 1-->
+                <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br>with Smile</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-bike-primary text-white">Purchase</button>
+              </div>
+              <div class="flex-1"><!--child 2-->  
+                <img src="./images/slider/bike3.png" class="w-3.8/4" />
+              </div>
+          </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a> 
               <a href="#slide4" class="btn btn-circle">❯</a>
@@ -100,7 +118,16 @@
           </div> 
           <!--slide 4-->
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="./images/slider/bike4.png" class="w-full" />
+            <div class="flex flex-col lg:flex-row p-4 lg:p-24">
+              <div class="space-y-7 flex-1 gap 20"><!--child 1-->
+                <h2 class="text-4xl lg:text-6xl font-bold">Ride-on R15 V4 <br>with Smile</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn bg-bike-primary text-white">Purchase</button>
+              </div>
+              <div class="flex-1"><!--child 2-->  
+                <img src="./images/slider/bike4.png" class="w-3.8/4" />
+              </div>
+          </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
@@ -109,7 +136,90 @@
         </div>
     </header>
     <main class="md:container md:mx-auto">
-
+      <!--featured bike-->
+        <div style="text-align: center;">
+          <h1 class="text-4xl align-items:center">Fetured Bikes In This Year</h1>
+        <h5 class="text-red mb-12">Best bike collection</h5>
+      </div> 
+      <div Class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <img src="./images/others/feature-bike.png" alt="">
+        <img src="./images/others/feature-bike.png" alt="">
+        <img src="./images/others/feature-bike.png" alt="">
+      </div>
+        <!--latest news-->
+        <section class="mx-24 my-24">
+          <h3 class="text-5xl font-semibold text-center mb-12">latest News
+          </h3>
+          <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-20">
+            <!--card 1-->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                  <button class="btn btn-primary bg-bike-primary text-white uppercase">Read More</button>
+                </div>
+                <!--card 1 ends-->
+              </div>
+            </div>
+            <!--card 2-->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="./images/others/latest2.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                  <button class="btn btn-primary bg-bike-primary text-white uppercase">Read More</button>
+                </div>
+                <!--card 2 ends-->
+              </div>
+            </div>
+            <!--card 3-->
+            <div class="card bg-base-100 shadow-xl">
+              <figure><img src="./images/others/latest3.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                  <button class="btn btn-primary bg-bike-primary text-white uppercase">Read More</button>
+                </div>
+                <!--card 3 ends-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Happy client says-->
+        <section>
+          <div>
+            <h3 class="text-5xl font-semibold mb-12 text-center">Happy <span class="text-bike-primary">Clients says</span></h3>
+            <!--first-->
+            <div>
+              <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="./images/others/user-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <h2>Regina Miles
+            </h2>
+            <h2>Banker</h2>
+          </div>
+          <!--first ends-->
+        </section>
     </main>
 </body>
 </html>
